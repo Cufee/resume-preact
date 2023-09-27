@@ -1,23 +1,16 @@
-import { h } from 'preact';
-import { Route, Router } from 'preact-router';
+import { h } from "preact";
+import { Suspense } from "preact/compat";
 
-import Header from './header';
-
-// Code-splitting is automated for `routes` directory
-import Home from '../routes/home';
-import Profile from '../routes/profile';
+import Header from "./header";
+import Resume from "./resume";
 
 const App = () => (
-	<div id="app">
-		<Header />
-		<main>
-			<Router>
-				<Route path="/" component={Home} />
-				<Route path="/profile/" component={Profile} user="me" />
-				<Route path="/profile/:user" component={Profile} />
-			</Router>
-		</main>
-	</div>
+  <div id="app" class="min-h-screen">
+    <Header />
+    <main class="max-w-7xl p-4 mx-auto">
+      <Resume />
+    </main>
+  </div>
 );
 
 export default App;

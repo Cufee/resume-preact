@@ -1,0 +1,145 @@
+{
+    "header": {
+        "name": "Vlad Kouzin",
+        "slogan": "A great simplifier of all things technology based",
+        "email": "vkouzin@outlook.com",
+        "links": [
+            {
+                "text": "linkedin.com/in/vkouzin",
+                "href": "https://www.linkedin.com/in/vkouzin/"
+            },
+            {
+                "text": "github.com/cufee",
+                "href": "https://github.com/cufee"
+            },
+            {
+                "text": "resume.kouzin.net",
+                "href": "https://resume.kouzin.net"
+            }
+        ]
+    },
+    "summary": "Highly motivated and experienced software engineer seeking a remote position to leverage my skills in solving complex problems with simple, efficient solutions. Passionate about contributing to a team that values innovation, quality, and growth.",
+    "experience": [
+        {
+            "title": "Full Stack",
+            "tags": [
+                "React",
+                "Node",
+                "Terraform"
+            ],
+            "company": "AlertMedia",
+            "website": "https://www.alertmedia.com/",
+            "period": {
+                "from": "2022",
+                "to": "2023"
+            },
+            "location": "Remote",
+            "achievements": [
+                "Developed multiple web applications for internal use by engineering and management teams",
+                "Built multiple CLI tools to automate common tasks for the engineering team and improve developer onboarding experience",
+                "Simplified Docker Compose configurations, designing a clear framework for maintaining and adding new services",
+                "Refactored legacy code, improved pipeline run time from over an hour to 7 minutes"
+            ]
+        },
+        {
+            "title": "Full Stack",
+            "tags": [
+                "React",
+                "Node",
+                "Go",
+                "Kubernetes"
+            ],
+            "company": "Chili Piper",
+            "website": "https://www.chilipiper.com/",
+            "period": {
+                "from": "2021",
+                "to": "2022"
+            },
+            "location": "Remote",
+            "achievements": [
+                "Built popular customer-facing tools and add-ons to expand the feature set of Chili Piper",
+                "Wrote extensive documentation and \"magic\" scripts to simplify the onboarding process for new customers",
+                "Developed industry leading tools for our Customer Success team, reducing response times and increasing customer satisfaction",
+                "Made an internal support portal aggregating data from multiple sources to provide a single source of truth for our Customer Success team",
+                "Maintained a Kubernetes cluster with all internal services and tools"
+            ]
+        },
+        {
+            "title": "Customer Support",
+            "tags": [
+                "JavaScript",
+                "Python"
+            ],
+            "company": "Mixer.com",
+            "website": "https://killedbymicrosoft.info",
+            "period": {
+                "from": "2020",
+                "to": "2021"
+            },
+            "location": "Remote",
+            "achievements": [
+                "Designed custom tools and scripts to allow more organized workflows",
+                "Wrote documentation on routines for efficient troubleshooting of hardware and software issues",
+                "Handled highly confidential information"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "items": [
+                "Go",
+                "Python",
+                "TypeScript"
+            ]
+        },
+        {
+            "items": [
+                "Node, Deno",
+                "Express, Fiber",
+                "React, Svelte, HTMX"
+            ]
+        },
+        {
+            "items": [
+                "Helm, Terraform",
+                "Docker, Kubernetes",
+                "AWS, GCP, DigitalOcean",
+                "CircleCI, BitBucket, GitHub"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Pulley",
+            "tags": [
+                "TypeScript",
+                "Deno"
+            ],
+            "repo": {
+                "text": "@Cufee"
+            },
+            "description": "A user-friendly CLI tool for pulling and configuring multiple git repositories blazingly fast."
+        },
+        {
+            "name": "Aftermath",
+            "tags": [
+                "Go",
+                "Kubernetes"
+            ],
+            "repo": {
+                "text": "@Cufee"
+            },
+            "description": "Highly rated Discord Bot used by over 4000 servers. It provides a better in-game progress tracking for World Of Tanks Blitz with a beautiful UI rendered as an image."
+        },
+        {
+            "name": "OpenMemoryDB",
+            "tags": [
+                "Go"
+            ],
+            "repo": {
+                "text": "@Cufee"
+            },
+            "description": "A lightweight in-memory key-value database with support for persistence and a CRUD API wrapper using Go Fiber."
+        }
+    ]
+}
